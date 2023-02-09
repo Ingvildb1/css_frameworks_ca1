@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/style.css" >
+    <title>Profile | Course Assignment</title>
+</head>
+<body class="text-dark">
+     <!--Nav-->
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Course Assignment</a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+    
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="profile.html" class="nav-link">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+       </nav>
+
+       <!--Profile card-->
+       <section class="main-content">
+        <div class="container">
+            <h1 class="text-center mb-5 p-5"> Profile Page</h1>
+
+            <div class="row">
+                <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+
+                    <div class="profile-card card shadow  p-xl-5 mb-4 text-center">
+                        <div class="banner"></div>
+                        <img src="img/sam-manns-p0ZvBVpW3KY-unsplash.jpg" alt="" class="card-img-top img-circle mx-auto mb-3">
+                        <h3 class="mb-4">Ola Nordmann</h3>
+                        <div class="text-center mb-4">
+                            <p class="mb-2">olanordmann@example.com</p>
+                            <p class="mb-2">+47 12345678</p>
+                            <p class="mb-2">olanordmann.com</p>
+                            <p class="mb-2">Norway</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+       </section>
+
+
+       <!--Feed with own posts-->
+       <section class="container">
+        <h2 class="pt-5">My feed</h2>
+      <div class="container card p-3 my-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/helena-lopes-e3OUQGT9bWU-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, est.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">2 comments</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/maxim-tolchinskiy-7L55cEcKjpQ-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laboriosam corporis fuga et optio quod.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">5 comments</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/nathan-dumlao-6VhPY27jdps-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia odit necessitatibus. Libero, facilis animi?</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">2 comments</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/sam-manns-p0ZvBVpW3KY-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia odit necessitatibus. Libero, facilis animi?</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">3 comments</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+      <!--Share a new post-->
+      <div class=" container col-md-6 pt-5">
+        <form>
+           <div class="d-flex justify-content-around">
+               <h2 class="pt-3">Share a new post</h2>
+           </div>
+             <textarea name="" id="" cols="3" rows="3" class="form-control" placeholder="Write Something...." ></textarea>
+          <div class="pt-3">
+             <button class="btn btn-danger">Share it! </button>
+         </div>
+       </div>
+       </form>
+
+
+    <!-- List of contacts-->
+    <section class="container pb-5">
+    <h2 class="pt-5">My contacts</h2>
+    <div class="list-group w-auto">
+        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">Friend 1</h6>
+              <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <small class="opacity-80 text-nowrap text-success">Online</small>
+          </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">Friend 2</h6>
+              <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <small class="opacity-80 text-nowrap text-danger">Offline</small>
+          </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">Friend 3</h6>
+              <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <small class="opacity-80 text-nowrap text-success">Online</small>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer mt-auto py-5 col-md-12 justify-content-center my-5 pt-5 text-center text-small">
+      <p class="mb-1 text-dark">&copy; 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+@import "config";
+@import "functions";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $success-color;
+
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+p {
+    color: $success-color;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+//Nav//
+.navbar {
+    a{
+        color: rgb(172, 107, 107);
+    }
+}
